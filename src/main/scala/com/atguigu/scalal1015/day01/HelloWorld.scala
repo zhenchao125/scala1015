@@ -9,7 +9,7 @@ object HelloWorld {
         println("hello world")
         
         // 单行注释
-        
+        //aaaaa
     }
 }
 
