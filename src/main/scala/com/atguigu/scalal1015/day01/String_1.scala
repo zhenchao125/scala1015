@@ -6,6 +6,8 @@ package com.atguigu.scalal1015.day01
  */
 object String_1 {
     def main(args: Array[String]): Unit = {
-        
+    
+    
+    
     }
 }
