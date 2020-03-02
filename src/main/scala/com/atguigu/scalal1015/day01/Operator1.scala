@@ -46,8 +46,8 @@ object Operator1 {
         ==  等价于 equals   (!=)
         equals 等价于 ==
             自定义类型应该覆写equals.
-                不要忘记覆写以下hashCode, 这两个分的返回要一致
-        eq  等价于java的 ==  只能用用AnyRef  (ne)
+                不要忘记覆写一下hashCode, 这两个返回要一致(hashCode相等的两个对象, 应该equals返回true)
+        eq  等价于java的 ==  只能用于AnyRef  (ne)
     
  
  快捷键:
