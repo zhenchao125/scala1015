@@ -26,13 +26,19 @@ object IfDemo {
         /*var a = 10
         println(a = 40)*/
         
-        val m = 99.9
-        val s: Double = if (m < 0) {
-            throw new IllegalArgumentException("你的参数不对")  // 返回的是 Nothing
-        } else {
-            Math.sqrt(m)
-        }
-        println(s)
+        /* val m = 99.9
+         val s: Double = if (m < 0) {
+             throw new IllegalArgumentException("你的参数不对")  // 返回的是 Nothing
+         } else {
+             Math.sqrt(m)
+         }
+         println(s)*/
+        
+        val m = 100
+        val n = 50
+        val r = if (m > n) {
+            1000
+        } else 1
     }
 }
 
