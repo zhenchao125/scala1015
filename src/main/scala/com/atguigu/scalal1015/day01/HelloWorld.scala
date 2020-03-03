@@ -1,5 +1,6 @@
 package com.atguigu.scalal1015.day01
 
+case class User(var age: Int, var name:String)
 /**
  * 文档注释
  */
@@ -8,6 +9,8 @@ object HelloWorld {
         System.out.println("hello world")
         println("hello world")
         
+        val a = User(1,"李四")
+        a.name = "zs"
         // 单行注释
         //aaaaa
     }
