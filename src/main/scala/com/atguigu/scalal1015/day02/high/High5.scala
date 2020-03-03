@@ -25,6 +25,13 @@ object High5 {
         
         
     }
+    
+    /**
+     * map操作
+     * @param arr
+     * @param op
+     * @return
+     */
     def map(arr: Array[Int], op: Int => Int) = {
         for (elem <- arr) yield op(elem)
     }
