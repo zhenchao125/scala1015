@@ -18,14 +18,22 @@ object High5 {
 //        val arr2 = filter(arr1, x => x % 2 == 0)
 //        val arr2 = filter(arr1, _ % 2 == 0)
 //        val arr2 = filter(arr1, x => x > 25)
-        val arr2 = filter(arr1, _ > 25)
-        foreach(arr2, println)
+//        val arr2 = filter(arr1, _ > 25)
+        
+//        val arr2 = map(arr1, x => x * x * x)
+//        foreach(arr2, println)
+        
+        
     }
+    def map(arr: Array[Int], op: Int => Int) = {
+        for (elem <- arr) yield op(elem)
+    }
+    
     
     /**
      * 使用给定的条件对数组进行过滤
      * @param arr
-     * @param condition  过滤条件, 返回时true留下
+     * @param condition  过滤条件, 返回是true留下
      */
     def filter(arr: Array[Int], condition: Int => Boolean) = {
         // 通过一个数组, 得到一个新的数组   for推导
@@ -57,6 +65,7 @@ filter
     过滤.  过滤条件可以通过一个返回boolean的函数来体现
 
 map
+    映射. 一进一出
 
 reduce
 
