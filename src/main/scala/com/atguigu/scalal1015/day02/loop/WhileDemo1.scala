@@ -1,4 +1,4 @@
-package com.atguigu.scalal1015.day02.fun
+package com.atguigu.scalal1015.day02.loop
 
 /**
  * Author atguigu
@@ -15,9 +15,3 @@ object WhileDemo1 {
         println(r)
     }
 }
-
-/*
-任何的语法结构都有值:
-    1. while结构的值是Unit
-    2. 赋值语句的值也是Unit
- */

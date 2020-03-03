@@ -1,8 +1,7 @@
-package com.atguigu.scalal1015.day02.fun
+package com.atguigu.scalal1015.day02.loop
 
 import scala.io.StdIn
-import scala.util.control.Breaks._
-
+import scala.util.control.Breaks.{break, breakable}
 
 /**
  * Author atguigu

@@ -1,4 +1,4 @@
-package com.atguigu.scalal1015.day02.fun
+package com.atguigu.scalal1015.day02.loop
 
 /**
  * Author atguigu
@@ -18,7 +18,3 @@ object For5 {
         println("abcd".map(c => c.toString.toUpperCase + c).mkString(""))
     }
 }
-
-/*
-循环没有返回值(Unit)
- */

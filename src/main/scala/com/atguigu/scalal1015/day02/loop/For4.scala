@@ -1,4 +1,4 @@
-package com.atguigu.scalal1015.day02.fun
+package com.atguigu.scalal1015.day02.loop
 
 /**
  * Author atguigu

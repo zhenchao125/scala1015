@@ -1,4 +1,4 @@
-package com.atguigu.scalal1015.day02.fun
+package com.atguigu.scalal1015.day02.loop
 
 /**
  * Author atguigu
@@ -26,7 +26,3 @@ object For2 {
         
     }
 }
-
-/*
-for(int i = 1, int j = 2; i < 100; i++, j++){  }
- */
