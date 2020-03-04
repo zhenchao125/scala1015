@@ -1,4 +1,4 @@
-package com.atguigu.scalal1015.day03.pack
+package com.atguigu.scalal1015.day03.obj
 
 import scala.annotation.meta.beanGetter
 import scala.beans.BeanProperty
