@@ -9,7 +9,9 @@ import a.B
 object Extends2 {
     def main(args: Array[String]): Unit = {
         val b1 = new B1
-        println(b1.a)
+        val a1: A1 = b1
+        println(b1.a)  // 20
+        println(a1.a)  // 10× 20√
     }
 }
 
@@ -48,7 +50,7 @@ scala的继承:
     2. var只能覆写抽象的var
     
  注意:
-    在java中, 方法有多态, 属性没有多态!
+    a:在java中, 方法有多态, 属性没有多态!
         B extends A
         A a = new B()
         左边的类型叫编译时类型
@@ -58,5 +60,6 @@ scala的继承:
             运行的时候, 方法的具体执行效果, 要看运行时类型
         
         编译时类型和运行时类型不一致, 就产生了多态
+     b: 在scala'中, 方法有多态, 属性(其实还是方法)也有多态
         
  */
