@@ -1,5 +1,7 @@
 package com.atguigu.scalal1015.day03.recursive
 
+import scala.annotation.tailrec
+
 /**
  * Author atguigu
  * Date 2020/3/4 9:55
@@ -10,6 +12,7 @@ object RecursiveDemo1 {
     }
     
     // "累加器" 用来储存中间结果的
+    @tailrec
     def factorial(n: Int, acc: BigInt): BigInt = {
         if (n == 1) acc
         else factorial(n - 1, n * acc)
