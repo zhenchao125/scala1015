@@ -16,4 +16,6 @@ public class A {
 
         Predef.println("abc");
     }
+
+
 }
