@@ -9,6 +9,8 @@ object Single1 {
         //        A()  // 等价于 A.apply()
         val a = new A
         a(10) // 等价于 a.apply(10)
+        a(10) // 等价于 a.apply(10)
+        a(10) // 等价于 a.apply(10)
     }
 }
 

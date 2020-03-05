@@ -15,6 +15,7 @@ public class A {
         System.out.println(a = 40); //
 
         Predef.println("abc");
+        Predef.println("abc");
     }
 
 
