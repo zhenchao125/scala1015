@@ -11,6 +11,7 @@ object MyWhile {
             println(a)
             a += 1
         }
+        
     }
     
     // 控制抽象
