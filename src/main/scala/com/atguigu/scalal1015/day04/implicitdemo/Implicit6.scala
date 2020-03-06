@@ -27,7 +27,7 @@ object Implicit6 {
     }*/
     def main(args: Array[String]): Unit = {
 //        val a: A = new B()
-        // 从冥界召唤隐式值
+    
     }
 }
 
