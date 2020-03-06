@@ -12,7 +12,7 @@ object Implicit3 {
 //        val r = 2 days ago
         val r = 100.days(later)
         println(r)   // 2020-03-04
-        //        4 days later  // 计算4天前是哪一天
+        //        4 days later  // 计算4天后是哪一天
     }
 }
 
