@@ -12,7 +12,7 @@ class Father {
     def f() = println("father... f")
 }
 
-class My extends Father
+class My1 extends Father
 
 //trait F extends Exception
 trait F {
@@ -25,7 +25,7 @@ trait F {
 }
 
 //如果要成功, 则My要么是Exception, 要么是Exception的子类
-class Sub extends My with F
+class Sub extends My1 with F
 
 /*
 //如果要成功, 则My要么是Exception, 要么是Exception的子类
