@@ -6,7 +6,7 @@ package com.atguigu.scalal1015.day05.collections
  */
 object Opt2 {
     def main(args: Array[String]): Unit = {
-        val list1 = List(20, 50, 20, 60, 10, 20)
+        val list1 = List(30, 50, 20, 60, 10, 20)
         // 1. 反转   1 to 100 reverse
         println(list1.reverse)
         // 2. 获取前几个
@@ -16,10 +16,11 @@ object Opt2 {
         println(list1.drop(2))
         // 4. 获取满足条件的
         //        val list3: List[Int] = list1.takeWhile(x => x > 20)
-        //        val list3: List[Int] = list1.dropWhile(x => x > 20)
-        //        println(list3)
+        val list3: List[Int] = list1.dropWhile(x => x > 20)
+        println(list3)
         // 5. 取后n个
-        val list5: List[Int] = list1.takeRight(2)
+        //        val list5: List[Int] = list1.takeRight(2)
+        
         
     }
 }
