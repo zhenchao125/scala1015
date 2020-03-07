@@ -1,4 +1,4 @@
-package com.atguigu.scalal1015.day05.arr.list
+package com.atguigu.scalal1015.day05.list
 
 import scala.collection.mutable.ArrayBuffer
 
