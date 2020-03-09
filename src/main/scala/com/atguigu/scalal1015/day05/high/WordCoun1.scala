@@ -22,6 +22,8 @@ object WordCoun1 {
         })*/
 //        val wordCount =wordGrouped.mapValues(v => v.size)
         val wordCount =wordGrouped.mapValues(_.size)
-        println(wordCount)
+        // 按照单词的数量降序, 取top3
+        val result = wordCount.toList.sortBy(_._2)(Ordering.Int.reverse).take(3)
+        println(result)
     }
 }
