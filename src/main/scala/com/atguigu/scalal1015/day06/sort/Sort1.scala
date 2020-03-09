@@ -31,9 +31,8 @@ object Sort1 {
         implicit val o: Ordering[User] = new Ordering[User] {
             override def compare(x: User, y: User): Int = {
                 var r = x.age - y.age
-                if(r == 0) r = -x.name.compare(y.name)
+                if(r == 0) r = x.name.compare(y.name)
                 r
-                
             }
         }
         val list2 = list1.sorted
