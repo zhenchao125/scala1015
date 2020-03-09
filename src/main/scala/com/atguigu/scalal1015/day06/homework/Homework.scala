@@ -90,6 +90,7 @@ object Homework {
         /*def reverse(list: List[Int]) = {
             list.foldLeft(List[Int]())((list, e) => e :: list)
         }*/
+        
         def reverse(list: List[Int]): List[Int] = {
             if(list.isEmpty) list
             else reverse(list.tail) :+ list.head
