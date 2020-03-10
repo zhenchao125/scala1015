@@ -4,10 +4,18 @@ package com.atguigu.scalal1015.day07.generic
  * Author atguigu
  * Date 2020/3/10 14:23
  */
+case class People(age:Int, name: String)
+object People{
+    implicit val ord: Ordering[People] = new Ordering[People](){
+        override def compare(x: People, y: People): Int = x.age - y.age
+    }
+}
+
 object ContextBound {
     def main(args: Array[String]): Unit = {
         println(max(10, 20))
         println(max("10", "20"))
+        println(max(People(10, "a"), People(20, "b")))
     }
     // 让max方法可以比较一个普通的样例类对象
     
