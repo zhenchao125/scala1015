@@ -9,9 +9,9 @@ case class AA(val age: Int) extends Ordered[AA]{
 }
 object Generic2 {
     def main(args: Array[String]): Unit = {
-//        println("a" < "b")
-//        val aa = compare(new AA(10), new AA(20))
-//        println(aa)
+        println("a" < "b")
+        val aa = compare(new AA(10), new AA(20))
+        println(aa)
         
         val max: Int = compare(10, 20)
         println(max)
